@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1>Generate a</h1>
+            <h1 id="secondheading">random password</h1>
+            <h3>Never use an insecure password again.</h3>
+            <button id="generate-btn" onclick="renderPasswords()"> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.iconsdb.com%2Ficons%2Fdownload%2Fwhite%2Fbolt-512.png&f=1&nofb=1">  Genrate passwords</button>
+             <input type="text" id="input-el" value="" placeholder="Enter length of Password">
+            <input id="submit" type="button" value="Submit" onclick="getInput()">
+            <div id="passwords">
+                <input type="text" id="firstpassword-el" class="copy-el"  value="" ></p><button class="copy-btn"  onclick="copy()">Copy</button>
+                
+                <input type="text" id="secondpassword-el" class="copy-el" value="" ></p><button class="copy-btn" onclick="copy()">Copy</button> 
+                
+                <input type="text" id="thirdpassword-el" class="copy-el" value="" ></p><button class="copy-btn" onclick="copy()">Copy</button>
+                
+                <input type="text" id="fourthpassword-el" class="copy-el" value=""></p><button class="copy-btn" onclick="copy()">Copy</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
